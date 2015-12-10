@@ -189,7 +189,6 @@ TakaraKeyframer.prototype.addObject = function (config) {
         element:config.element,
         tickCallback: config.tickCallback,
         tickScope: config.tickScope,
-        currentFrame: config.currentFrame || 0,
         meta: {
             x: config.x || 0,
             y: config.y || 0,
@@ -198,7 +197,6 @@ TakaraKeyframer.prototype.addObject = function (config) {
             scale: config.scale || 1,
             rotation: config.rotation || 0,
             opacity: config.opacity || 1,
-            currentSpriteFrame: config.currentFrame || 0,
             visible: true
         },
         extraMeta: config.extraMeta || null,
@@ -213,7 +211,6 @@ TakaraKeyframer.prototype.addObject = function (config) {
             scale: config.scale || 0,
             rotation: config.rotation || 0,
             opacity: config.opacity || 1,
-            currentSpriteFrame: config.currentFrame || 0,
             visible: true
         }
     };
