@@ -1,4 +1,7 @@
 # takaraKeyframer
+
+[![Support](https://supporter.60devs.com/api/b/458567f23de2355cbd6f551a6637e702)](https://supporter.60devs.com/give/458567f23de2355cbd6f551a6637e702)
+
 #### What it does??
 If you ever touched any tool that does animation you will recognize instantly that this is that bar on the bottom with the frames on it. 
 The one that you use to set key frames on an animation and the tool will build your in between frames. Why write a function for each element to do a linear interpolation?
