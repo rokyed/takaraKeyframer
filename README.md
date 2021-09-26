@@ -2,7 +2,7 @@
 
 [![Support](https://supporter.60devs.com/api/b/458567f23de2355cbd6f551a6637e702)](https://supporter.60devs.com/give/458567f23de2355cbd6f551a6637e702)
 
-#### What it does??
+### What it does??
 If you ever touched any tool that does animation you will recognize instantly that this is that bar on the bottom with the frames on it. 
 The one that you use to set key frames on an animation and the tool will build your in between frames. Why write a function for each element to do a linear interpolation?
 You can do this easly now.
@@ -11,7 +11,7 @@ This library is awesome and easy to use.
 
 Note: The animation between 2 keyframes is based on linear-interpolation.
 
-###initialize it:
+### initialize it:
 ```javascript
 var myKeyframer = new TakaraKeyframer({
     startAt: 0,
@@ -24,7 +24,7 @@ var myKeyframer = new TakaraKeyframer({
 });
 ```
 
-###add objects to it:
+### add objects to it:
 ```javascript
 var myObject = myKeyframer.addObject({
     element: myElement,
@@ -59,7 +59,7 @@ var myObject = myKeyframer.addObject({
 });
 ```
 
-###add one key frame:
+### add one key frame:
 ```javascript
 myKeyframer.addKeyframe(myObject, 10, {
     opacity: 0,
@@ -91,7 +91,7 @@ myKeyframer.addKeyframes(myObject ,[{
     }
 }]);
 ```
-###use your own timer:
+### use your own timer:
 ```javascript
 window.setInterval(function(){
     // do your needs and when you want tick the takaraKeyframer
@@ -99,7 +99,7 @@ window.setInterval(function(){
 },1);
 ```
 
-###play, stop ,pause:
+### play, stop ,pause:
 ```javascript
 ///play:
 myKeyframer.playAnimation();
